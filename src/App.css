@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: lightgray; 
 }
 
 .App-logo {
@@ -30,4 +31,23 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.picture {
+  max-width:25%; 
+  margin-top: 30px; 
+
+}
+
+.discover {
+  text-align: justify; 
+  width:33%;
+  margin-left:35%;
+  margin-bottom: 25px; 
+
+}
+.item {
+  text-align: center; 
+  color: blue;
+  margin: 26px;
 }
