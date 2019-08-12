@@ -4,3 +4,11 @@ import "./index.css";
 import App from "./App";
 
 ReactDOM.render(<App />, document.getElementById("root"));
+
+export default function index({ imgUrl }) {
+  return (
+    <div style={{ maxWidth: "200px" }}>
+      <img src={imgUrl} />
+    </div>
+  );
+}
